@@ -3,6 +3,7 @@ custom/
 !custom/plugins/example
 !custom/example.zsh
 !custom/do-yourself.zsh
+!custom/do-myself.zsh
 
 # temp files directories
 cache/

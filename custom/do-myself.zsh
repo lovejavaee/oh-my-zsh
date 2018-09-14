@@ -23,8 +23,8 @@ alias le='less'
 alias gs='git status'
 alias gog='ssh lovejavaee@35.200.79.140'
 #export go='lovejavaee@35.200.79.140'
-alias clip='clip.exe'
-alias xclip='clip.exe'
+#alias clip='clip.exe'
+#alias xclip='clip.exe'
 
 # ignore DLL...
 zstyle ':completion:*:complete:-command-:*:*' ignored-patterns '*.dll|*.exe|*.so|*.pyd'
@@ -40,3 +40,24 @@ eval "$(jira --completion-script-zsh)"
 
 # Tell zsh not to nice background processes
 unsetopt BG_NICE
+
+function proxy_off(){
+    unset http_proxy
+    unset https_proxy
+    unset socket_proxy
+    echo -e "Proxy Closed!"
+}
+
+function proxy_on() {
+    export no_proxy="localhost,127.0.0.1,localaddress,.localdomain.com"
+    export http_proxy="http://127.0.0.1:1081"
+    export https_proxy=$http_proxy
+    export socket_proxy="socks5://127.0.0.1:1081"
+    echo -e "Proxy Open!"
+}
+
+function proxy_show(){
+    echo $http_proxy
+    echo $https_proxy
+    echo $socket_proxy
+}

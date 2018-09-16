@@ -1,7 +1,7 @@
 # zsh theme requires 256 color enabled terminal
 # i.e TERM=xterm-256color
 # Preview - https://www.flickr.com/photos/adelcampo/4556482563/sizes/o/
-# based on robbyrussell's shell but louder!
+# based on lovejavaee's shell but louder!
 
 PROMPT='%{$fg_bold[blue]%}$(git_prompt_info) %F{208}%c%f
 %{$fg_bold[white]%}%# %{$reset_color%}'

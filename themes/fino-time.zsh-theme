@@ -7,7 +7,7 @@
 
 # Borrowing shamelessly from these oh-my-zsh themes:
 #   bira
-#   robbyrussell
+#   lovejavaee
 #
 # Also borrowing from http://stevelosh.com/blog/2010/02/my-extravagant-zsh-prompt/
 

@@ -8,7 +8,7 @@ Update .zshrc:
 
    Or, customize the `$PROMPT` variable of your current theme to contain current folder mercurial repo info. This can be done by putting a custom version of the theme in `$ZSH_CUSTOM` or by changing `$PROMPT` in `.zshrc` after loading the theme.
 
-   The `robbyrussell` theme is used by default, so you need to modify `$PROMPT` var by adding `$(hg_prompt_info)` after `$(git_prompt_info)`, so it looks like this:
+   The `lovejavaee` theme is used by default, so you need to modify `$PROMPT` var by adding `$(hg_prompt_info)` after `$(git_prompt_info)`, so it looks like this:
 
    ```zsh
    PROMPT='${ret_status}%{$fg_bold[green]%}%p %{$fg[cyan]%}%c %{$fg_bold[blue]%}$(git_prompt_info)$(hg_prompt_info)%{$fg_bold[blue]%} % %{$reset_color%}'

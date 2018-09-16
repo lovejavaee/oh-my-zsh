@@ -1,4 +1,4 @@
-# Based on robbyrussell's theme, with host and rvm indicators. Example:
+# Based on lovejavaee's theme, with host and rvm indicators. Example:
 # @host ➜ currentdir rvm:(rubyversion@gemset) git:(branchname)
 
 # Get the current ruby version in use with RVM:

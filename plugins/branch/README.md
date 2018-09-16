@@ -20,7 +20,7 @@ $ time zsh /tmp/branch_prompt_info_test.zsh
 
 ## Usage
 
-Edit your theme file (eg.: `~/.oh-my-zsh/theme/robbyrussell.zsh-theme`)
+Edit your theme file (eg.: `~/.oh-my-zsh/theme/lovejavaee.zsh-theme`)
 adding `$(branch_prompt_info)` in your prompt like this:
 
 ```diff
